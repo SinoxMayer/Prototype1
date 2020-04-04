@@ -7,6 +7,7 @@ public class FollowPlayer : MonoBehaviour
     //gameobject olarak player yaratınca bir game object eklebilir .
     public GameObject player;
     private Vector3 vector3Cam = new Vector3(0, 6, -7);
+ 
 
     // Start is called before the first frame update
     void Start()
