@@ -17,6 +17,10 @@ public class PlayerController : MonoBehaviour
     public Transform namlu;
 
 
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,11 +73,8 @@ public class PlayerController : MonoBehaviour
         wheelFr.Rotate(Vector3.up, turnSpeed * Time.deltaTime * horizantalInput);
 
         */
-
+        
         namlu.Rotate(Vector3.up, turnSpeed * Time.deltaTime * horizantalNamluInput);
-
-
-
 
 
 

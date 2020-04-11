@@ -10,7 +10,7 @@ public class WheelGo : MonoBehaviour
     public WheelCollider whe;
     public GameObject wheel_car;
 
-    public float torque = 1000;
+    public float torque = 100000;
     public float maxSteerAngle;
 
 
